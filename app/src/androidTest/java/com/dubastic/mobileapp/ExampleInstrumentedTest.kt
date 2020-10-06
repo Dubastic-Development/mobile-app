@@ -1,4 +1,4 @@
-package com.shamanayev.mobileweb
+package com.dubastic.mobileapp
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

@@ -1,4 +1,4 @@
-package com.shamanayev.mobileweb
+package com.dubastic.mobileapp
 
 import android.content.Intent
 import android.content.SharedPreferences
@@ -25,16 +25,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         this.webView.settings.javaScriptEnabled = true;
-
-        sharedPreferences = applicationContext.getSharedPreferences("settings", MODE_PRIVATE);
-
-        var url = sharedPreferences?.getString("url", "");
-
-        if (!url.isNullOrEmpty())
-            this.webView.loadUrl(url);
-        else {
-            val intent = Intent(this, EnterUrlActivity::class.java)
-            startActivity(intent)
-        }
+        var url = "https://www.dubastic.com/";
+        this.webView.loadUrl(url);
     }
 }

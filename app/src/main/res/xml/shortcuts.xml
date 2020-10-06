@@ -9,8 +9,8 @@
         android:shortcutDisabledMessage="@string/settings">
         <intent
             android:action="android.intent.action.VIEW"
-            android:targetPackage="com.shamanayev.mobileweb"
-            android:targetClass="com.shamanayev.mobileweb.EnterUrlActivity" />
+            android:targetPackage="com.dubastic.mobileapp"
+            android:targetClass="com.dubastic.mobileapp.EnterUrlActivity" />
         <!-- If your shortcut is associated with multiple intents, include them
              here. The last intent in the list determines what the user sees when
              they launch this shortcut. -->

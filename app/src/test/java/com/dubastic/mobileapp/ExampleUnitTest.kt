@@ -1,4 +1,4 @@
-package com.shamanayev.mobileweb
+package com.dubastic.mobileapp
 
 import org.junit.Test
 
