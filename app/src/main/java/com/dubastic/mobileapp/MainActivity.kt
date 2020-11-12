@@ -21,7 +21,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         this.webView.settings.javaScriptEnabled = true;
-        var url = "https://www.dubastic.com/";
+        val url = "https://www.dubastic.com/";
 
         if (savedInstanceState == null)
             this.webView.loadUrl(url);
