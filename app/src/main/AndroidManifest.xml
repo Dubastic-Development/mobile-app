@@ -14,12 +14,14 @@
 
         <activity
             android:name="com.dubastic.mobileapp.MainActivity"
+            android:configChanges="orientation|keyboard|screenSize"
             android:theme="@style/AppTheme.FullScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
     </application>
 
 </manifest>
